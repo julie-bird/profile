@@ -1,0 +1,49 @@
+.main-content {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.profile-div {
+    margin: 0 auto;
+    width: 300px;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 20px;
+}
+.icon-div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.fa-user-circle {
+    font-size: 200px;
+    color: rgba(0, 0, 0, 0.685);
+
+}
+.name {
+    font-size: 35px;
+}
+.contact {
+    color: rgba(0, 0, 0, 0.536);
+    font-size: 15px;
+    font-style: italic;
+}
+.bio {
+    font-size: 20px;
+}
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    border: 1px lightgrey solid;    padding: 6px;
+    font-size: 12px;
+    width: 150px;
+    margin-top: 7px;
+    border-radius: 4px;
+}
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+}

@@ -1,0 +1,21 @@
+<main class="main-content">
+    <div class="form-div">
+        <div class="decoration-div">
+            <i class="fas fa-angle-double-left"></i>
+            <i class="fas fa-angle-double-right"></i>
+        </div>
+        <p class="instructions">Use the form below to update your profile.</p>
+        <form class="form" #addEdit="ngForm" (ngSubmit)="submitForm(addEdit)">
+            <label class="label" for="name">Name:</label>
+            <input class="text-box" type="text" name="name" id="name" placeholder="your name here" ngModel>
+            <label class="label" for="contact">Contact:</label>
+            <input class="text-box" type="text" name="contact" id="contact" placeholder="you@you.com" ngModel>
+            <label class="label" for="bio">Bio:</label>
+            <input class="text-box bio" type="textarea" name="bio" id="bio" placeholder="tell me about yourself..."
+                ngModel>
+            <div class="button-div">
+                <button class="button" type="submit">Update</button>
+            </div>
+        </form>
+    </div>
+</main>
